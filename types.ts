@@ -46,4 +46,6 @@ export interface Suggestion {
   type: 'Restaurant' | 'Movie' | 'Hangout Spot' | 'Other';
   rating: number;
   reason: string;
+  address?: string; // For places
+  posterUrl?: string; // For movies
 }

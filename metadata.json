@@ -1,5 +1,7 @@
 {
   "name": "Jashn Planner",
   "description": "A smart event planning web app with an Indian theme that helps groups decide on plans together with suggestions for movies, restaurants, and hangout spots based on preferences.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [
+    "geolocation"
+  ]
 }
